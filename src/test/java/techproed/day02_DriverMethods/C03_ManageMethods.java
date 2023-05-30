@@ -20,7 +20,7 @@ public class C03_ManageMethods {
         /*
         Bir web sitesinde gittigimizde browser default olarak bir boyuta gelir.ve acilan browser'daki
         webElementlere browser maximize olmadigi icin ulasamayabiliriz. Dolayisiyla browser'i actiktan sonra
-        maximize yaparsak driver butun webelementleri gorur v rahatlikla mudahale edebilir. Bu yuzden
+        maximize yaparsak driver butun webelementleri gorur ve rahatlikla mudahale edebilir. Bu yuzden
         browser'i actiktan sonra ilk olarak driver.manage().window().maximize(); yapmamamiz bizim webelementlere
         ulasmada isimizi kolaylastirir. Boylelikle fail almamis oluruz.
          */

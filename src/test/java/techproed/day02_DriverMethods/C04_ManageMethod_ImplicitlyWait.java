@@ -32,6 +32,7 @@ public class C04_ManageMethod_ImplicitlyWait {
 
         //sayfa basliginin techpro icerdigini test edelim.
         String actualTitle = driver.getTitle();
+
         String arananKelime="Techpro";
         if (actualTitle.contains(arananKelime)){
             System.out.println("Test PASSED");
