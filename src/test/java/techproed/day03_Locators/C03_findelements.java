@@ -50,6 +50,7 @@ public class C03_findelements {
     }
 
     //Amazon sayfasina gidiniz
+
     //iphone aratiniz
     //cikan sonuc yazisini konsola yazdiriniz.
     //cikan urunlerden ilk 5 tanesine tiklayip basliklarini yazdiriniz.
