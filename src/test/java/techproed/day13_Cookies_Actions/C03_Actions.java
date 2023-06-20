@@ -12,13 +12,16 @@ public class C03_Actions extends TestBase {
     public void test01() {
         //Amazon a gidelim https://www.amazon.com/
         driver.get("https://www.amazon.com/");
-        //Sag ust bolumde bulunan "Account & Lists" menüsüne git  "Account" secenegine tikla
+
+        //Sag ust bolumde bulunan “Account & Lists” menüsüne git  “Account” secenegine tikla
         WebElement accountListWE = driver.findElement(By.xpath("//*[@class='nav-line-2 ']"));
         Actions actions = new Actions(driver);
         actions.moveToElement(accountListWE).perform();
-        //motveToElement() methodu ile mouse'u istedigimiz webElementin uzerine goturebiliriz.
-        driver.findElement(By.xpath("//*[text()='Account']"));
-        //Acilan sayfanin Title in "Your Account" icerdigini dogrula
+        //moveToElement() methodu ile mouse'u istediğimiz webElementin üzerine götürebiliriz
+        bekle(2);
+        driver.findElement(By.xpath("//*[text()='Account']")).click();
+
+        //Acilan sayfanin Title in “Your Account” icerdigini dogrula
         Assert.assertTrue(driver.getTitle().contains("Your Account"));
 
     }
