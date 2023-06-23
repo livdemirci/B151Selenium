@@ -25,7 +25,11 @@ u
 Esrc/test/java/techproed/day14_Actions_Faker/C02_Actions_DragDrop.java,9\9\990fcc4b14c7a810feab8e15cb0798895e36f2a9
 r
 Bsrc/test/java/techproed/day03_Locators/C01_WebelementLocators.java,b\1\b1bd134420f13f2eda9a92a65f8550dade542f94
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 j
 :src/test/java/techproed/day15_FileExist/C01_FileExist.java,b\c\bc1f4f7ad9b69f277fe425004ef204a90276dcfc
+o
+?src/test/java/techproed/day15_FileExist/C03_FileUploadTest.java,3\f\3f779fc23a2a564235573afd231e96cec8c19ed8
+q
+Asrc/test/java/techproed/day15_FileExist/C02_FileDownloadTest.java,1\d\1d56af5b064a675c84434fe43802e2b6a0d09265
+r
+Bsrc/test/java/techproed/day17_Exceptions/C02_TimeOutException.java,7\6\76a6e0d6bd7934d9438660892f3f3aa7616739ca
